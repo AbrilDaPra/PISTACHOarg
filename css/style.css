@@ -36,7 +36,7 @@ header{
 /* INDEX */
 /* BANNER */
 #hero{
-    background-image: url('../images/banner-img.PNG');
+    background-color: black;
     background-repeat: repeat-x;
     width: 100%;
     height: 90vh;
@@ -65,10 +65,75 @@ header{
     color: white;
 }
 
+@keyframes changeTypography {
+        0% {
+          font-family: 'Pathway Gothic One', sans-serif;
+        }
+        100% {
+          font-family: 'Raleway', sans-serif;
+        }
+}
+
+/* FAVORITES */
+#favorites{
+    padding-bottom: 60px;
+}
+#favorites h2{
+    color: #87f767;
+    font-size: 40px;
+    text-align: center;
+    margin: 40px;
+}
+#favorites img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#favorites h3{
+    color: #87f767;
+    font-size: 25px;
+    text-align: start;
+    padding-top: 15px;
+}
+#favorites h4{
+    color: #87f767;
+    font-size: 18px;
+    text-align: start;
+}
+#favorites button{
+    background-color: #87f767;
+    border-radius: 5px;
+    border-color: #87f767;
+    padding: 5px 2px 5px 2px;
+    display: flex;
+    margin-top: 15px;
+}
+#favorites button a{
+    text-decoration: none;
+    color: black;
+}
+
+/* US */
+#us{
+    background-color: #87f767;
+    height: 80vh;
+}
+#us h2{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    padding: 60px;
+}
+#us img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
 /* CATALOGUE */
 /* BANNER */
 .catalogue-banner{
-    background-image: url('../images/banner-catalogue.PNG');
+    background-color: black;
     background-repeat: repeat;
     width: 100%;
     height: 95vh;
@@ -106,6 +171,7 @@ header{
 .img-1{
     width: 80%;
     height: 100%;
+    margin-bottom: 50px;
 }
 .img-2{
     width: 100%;
@@ -115,6 +181,30 @@ header{
     text-align: start;
     margin-top: 5px;
 }
+#catalogue h4, h5{
+    color: #87f767;
+    text-align: start;
+    font-family: 'Raleway';
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.buy-btn{
+    background-color: #87f767;
+    border-radius: 5px;
+    border-color: #87f767;
+    padding: 5px;
+    display: flex;
+}
+.buy-btn a{
+    text-decoration: none;
+    color: black;
+}
+.buy-btn a:hover{
+    color: white;
+}
+
+
+
 
 /* FOOTER */
 .icon-container{
