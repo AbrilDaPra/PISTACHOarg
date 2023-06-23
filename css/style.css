@@ -113,6 +113,41 @@ header{
     color: black;
 }
 
+/* INSTAGRAM POSTS */
+.instagram-container{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+#instagram-posts h2{
+    color: #87f767;
+    font-size: 40px;
+    text-align: center;
+    margin: 40px;
+}
+#instagram-posts img{
+    border-radius: 50%;
+}
+.split-image{
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+    width: 400px;
+    height: 400px;
+}
+.four-img{
+    width: 200px;
+    height: 200px;
+}
+.complete-img{
+    width: 400px;
+    height: 400px;
+}
+.two-img{
+    width: 200px;
+    height: 200px;
+}
+
 /* US */
 #us{
     background-color: #87f767;
