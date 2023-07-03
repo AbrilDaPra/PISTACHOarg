@@ -33,6 +33,17 @@ header{
     color: #87f767;
 }
 
+.navbar-toggler{
+    color: #87f767;
+    border-color: #87f767;
+}
+button.navbar-toggler.collapsed{
+    background-color: #87f767;
+}
+button.navbar-toggler{
+    background-color: #87f767;
+}
+
 /* INDEX */
 /* BANNER */
 #hero{
@@ -114,12 +125,29 @@ header{
 }
 
 /* INSTAGRAM POSTS */
+.row{
+    margin-right: 2px;
+}
+#splitImage{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fourImg{
+    width: 20%;
+}
+#completeImg{
+    width: 20%;
+}
+#twoImg{
+    width: 10%;
+}
 .instagram-container{
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 #instagram-posts h2{
     color: #87f767;
@@ -129,40 +157,33 @@ header{
 }
 #instagram-posts img{
     border-radius: 50%;
+    object-fit: cover;
 }
 .split-image{
-    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
-    width: 400px;
-    height: 400px;
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+    width: 50%;
+    transform: scale(3);
+    margin: 0;
+    padding: 0;
 }
 .four-img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
 }
 .complete-img{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
 }
 .two-img{
-    width: 200px;
-    height: 200px;
-}
-
-/* US */
-#us{
-    background-color: #87f767;
-    height: 80vh;
-}
-#us h2{
-    color: black;
-    font-size: 40px;
-    text-align: center;
-    padding: 60px;
-}
-#us img{
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    display: grid;
+    margin: 0;
+    padding: 0;
 }
 
 /* CATALOGUE */
@@ -193,6 +214,60 @@ header{
 .catalogue-btn:hover{
     color: white;
 }
+/* CATEGORIES */
+#categories .col{
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+}
+#categories .image-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out; 
+}
+#categories .image-bg img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+#categories .col:hover .image-bg{
+    transform: scale(1.1);
+}
+#categories .image-bg::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+#categories .col:hover .image-bg::before{
+    opacity: 1;
+}
+#categories h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #87f767;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+#categories .col:hover h2{
+    opacity: 1;
+}
+
 
 /* PRODUCTS */
 #catalogue{
@@ -203,20 +278,17 @@ header{
     justify-content: center;
     align-items: center;
 }
-.img-1{
-    width: 80%;
-    height: 100%;
-    margin-bottom: 50px;
-}
-.img-2{
-    width: 100%;
+#catalogue img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
 }
 #catalogue h3{
     color: #87f767;
     text-align: start;
     margin-top: 5px;
 }
-#catalogue h4, h5{
+#catalogue h4{
     color: #87f767;
     text-align: start;
     font-family: 'Raleway';
@@ -263,7 +335,103 @@ header{
 .icon-circle i{
     font-size: 30px;
     color: black;
-    
     justify-content: center;
     align-items: center;
+}
+
+/* CONTACT */
+.banner-contact{
+    background-color: #87f767;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-contact button{
+    background-color: black;
+    border: 0;
+    padding: 20px;
+}
+.banner-contact button a{
+    text-decoration: none;
+}
+.banner-contact button a h2{
+    color: #87f767;
+    font-size: 60px;
+}
+#contact .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact .col-md-6{
+    width: 100% !important;
+}
+#contact iframe{
+    margin: 30px;
+    width: 300px;
+}
+.contact-container-icon{
+    display: block;
+}
+.contact-container-icon p{
+    font-size: 20px;
+    color: white;
+}
+.icon-circle-contact{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 5px 1px 0px;
+}
+.icon-circle-contact:hover{
+    background-color: #87f767;
+}
+.icon-circle-contact i{
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* MEDIAQUERY MOBILE */
+@media (max-width: 576px){
+    h1{
+        font-size: 30px;
+    }
+    .nav-item{
+        font-size: 16px;
+    }
+    #hero h2{
+        font-size: 50px;
+    }
+    .banner-index-btn{
+        /* position: absolute; */
+    }
+    #favorites h2{
+        font-size: 30px;
+    }
+    #favorites h3, h4, button{
+        margin-left: 20px;
+    }
+    #favorites img{
+        margin-top: 20px;
+    }
+    .instagram-container .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #completeImg, #fourImg, #twoImg{
+        width: 100%;
+    }
+    .four-img-container{
+        flex-wrap: wrap;
+    }
 }
