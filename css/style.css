@@ -187,108 +187,65 @@ button.navbar-toggler{
 }
 
 /* CATALOGUE */
-/* BANNER */
-.catalogue-banner{
-    background-color: black;
-    background-repeat: repeat;
-    width: 100%;
-    height: 95vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.catalogue-banner h2{
-    color: #87f767;
-    font-size: 90px;
-    text-align: center;
-}
-.catalogue-btn{
-    background-color: #87f767 ;
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 18px;  
-}
-.catalogue-btn:hover{
-    color: white;
-}
 /* CATEGORIES */
+#categories .row{
+    height: 70vh;
+}
 #categories .col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-bg{
     position: relative;
-    overflow: hidden;
-    width: 400px;
-    height: 400px;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
 }
-#categories .image-bg{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: transform 0.3s ease-in-out; 
-}
-#categories .image-bg img{
-    width: 300px;
-    height: 400px;
-    object-fit: cover;
-}
-#categories .col:hover .image-bg{
+.image-bg:hover{
     transform: scale(1.1);
 }
-#categories .image-bg::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
+.image-bg img{
+    display: block;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    height: auto;
 }
-#categories .col:hover .image-bg::before{
-    opacity: 1;
+.image-bg a{
+    text-decoration: none;
 }
-#categories h2{
+.image-bg h2{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 40px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
     color: #87f767;
-    font-size: 24px;
-    font-weight: bold;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    text-align: center;
 }
-#categories .col:hover h2{
-    opacity: 1;
+#categories .col{
+    position: relative;
 }
-
 
 /* PRODUCTS */
-#catalogue{
-    margin: 50px 50px;
-}
-#catalogue .row{
+
+.categories .row{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#catalogue img{
+.categories img{
     width: 300px;
     height: 400px;
     object-fit: cover;
 }
-#catalogue h3{
+.categories h3{
     color: #87f767;
     text-align: start;
     margin-top: 5px;
 }
-#catalogue h4{
+.categories h4{
     color: #87f767;
     text-align: start;
     font-family: 'Raleway';
@@ -308,35 +265,6 @@ button.navbar-toggler{
 }
 .buy-btn a:hover{
     color: white;
-}
-
-
-
-
-/* FOOTER */
-.icon-container{
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-}
-.icon-circle{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #87f767;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-}
-.icon-circle:hover{
-    background-color: white;
-}
-.icon-circle i{
-    font-size: 30px;
-    color: black;
-    justify-content: center;
-    align-items: center;
 }
 
 /* CONTACT */
@@ -393,6 +321,55 @@ button.navbar-toggler{
     background-color: #87f767;
 }
 .icon-circle-contact i{
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FANNYPACK CATEGORIE */
+#fannyPack .row{
+    margin-top: 100px;
+}
+
+/* HANDBAG CATEGORIE */
+#handbag .row{
+    margin-top: 100px;
+}
+
+/* BAGS CATEGORIE */
+#bags .row{
+    height: 80vh;
+}
+
+/* WALLET CATEGORIE */
+#wallet .row{
+    margin: 100px 0px 100px 0px;
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.icon-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #87f767;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.icon-circle:hover{
+    background-color: white;
+}
+.icon-circle i{
     font-size: 30px;
     color: black;
     justify-content: center;
