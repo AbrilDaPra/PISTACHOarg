@@ -229,7 +229,9 @@ button.navbar-toggler{
 }
 
 /* PRODUCTS */
-
+#categories{
+    height: 80vh;
+}
 .categories .row{
     display: flex;
     justify-content: center;
@@ -329,7 +331,7 @@ button.navbar-toggler{
 
 /* FANNYPACK CATEGORIE */
 #fannyPack .row{
-    margin-top: 100px;
+    height: 80vh;
 }
 
 /* HANDBAG CATEGORIE */
