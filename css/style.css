@@ -358,7 +358,7 @@ button.navbar-toggler{
 }
 
 /* HOW TO BUY */
-#howToBuy{
+#howToBuy, #aboutUs{
     height: 80vh;
     background-color: #87f767;
     display: flex;
@@ -366,7 +366,7 @@ button.navbar-toggler{
     align-items: center;
     flex-direction: column;
 }
-#howToBuy p{
+#howToBuy p, #aboutUs p{
     color: black;
     font-size: 20px;
     text-align: justify;
@@ -374,10 +374,18 @@ button.navbar-toggler{
     font-family: 'Raleway';
     font-weight: bold;
 }
-#howToBuy p h2{
+#howToBuy p h2, #aboutUs p h2{
     font-family: 'Pathway Gothic One';
     text-align: start;
 }
+
+/* ABOUT US */
+#aboutUs h3, #howToBuy h3{
+    font-size: 40px;
+    margin: 20px;
+}
+
+
 
 /* FOOTER */
 footer{
@@ -489,10 +497,10 @@ footer{
     #wallet .row{
         margin: 0;
     }
-    #howToBuy{
+    #howToBuy, #aboutUs{
         height: 100vh;
     }
-    #howToBuy p{
+    #howToBuy p, #aboutUs p{
         font-size: 18px;
         max-width: 300px;
     }
