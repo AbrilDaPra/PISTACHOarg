@@ -489,4 +489,11 @@ footer{
     #wallet .row{
         margin: 0;
     }
+    #howToBuy{
+        height: 100vh;
+    }
+    #howToBuy p{
+        font-size: 18px;
+        max-width: 300px;
+    }
 }
