@@ -123,6 +123,9 @@ button.navbar-toggler{
     text-decoration: none;
     color: black;
 }
+#favorites .row{
+    margin: 0px;
+}
 
 /* INSTAGRAM POSTS */
 .row{
@@ -226,6 +229,11 @@ button.navbar-toggler{
 }
 #categories .col{
     position: relative;
+}
+#categories .col-md-3{
+    align-items: center;
+    display: flex;
+
 }
 
 /* PRODUCTS */
@@ -387,11 +395,11 @@ footer{
     .nav-item{
         font-size: 16px;
     }
+    .nav-link{
+        padding-left: 30px;
+    }
     #hero h2{
         font-size: 50px;
-    }
-    .banner-index-btn{
-        /* position: absolute; */
     }
     #favorites h2{
         font-size: 30px;
@@ -412,5 +420,51 @@ footer{
     }
     .four-img-container{
         flex-wrap: wrap;
+    }
+    #categories .container-fluid{
+        height: 180vh;
+    }
+    .image-bg img{
+        width: 300px;
+        height: 300px;
+    }
+    .image-bg h2{
+        font-size: 30px;
+    }
+    #categories .col-12{
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0;
+        margin: 20px 0 20px 0;
+    }
+    #categories{
+        height: 180vh;
+    }
+    #fannyPack{
+        height: 270vh;
+    }
+    #bags{
+        height: 270vh;
+    }
+    #fannyPack .col, #handbag .col, #bags .col, #wallet .col{
+        padding-right: 0;
+        margin: 20px 0 20px 0;
+    }
+    #fannyPack h3, #handbag h3, #bags h3, #wallet h3{
+        padding-left: 25px;
+    }
+    #fannyPack h4, #handbag h4, #bags h4, #wallet h4{
+        padding-left: 5px;
+    }
+    #fannyPack button, #handbag button, #bags button, #wallet button{
+        margin-left: 25px;
+    }
+    #handbag .row{
+        margin: 0;
+    }
+    #wallet .row{
+        margin: 0;
     }
 }
