@@ -280,7 +280,7 @@ button.navbar-toggler{
 /* CONTACT */
 .banner-contact{
     background-color: #87f767;
-    height: 50vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -298,44 +298,33 @@ button.navbar-toggler{
     color: #87f767;
     font-size: 60px;
 }
-#contact .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#contactInfo{
+    margin-top: 30px;
 }
-#contact .col-md-6{
-    width: 100% !important;
-}
-#contact iframe{
-    margin: 30px;
-    width: 300px;
-}
-.contact-container-icon{
-    display: block;
-}
-.contact-container-icon p{
-    font-size: 20px;
+#contactInfo h5{
     color: white;
+    font-size: 18px;
 }
-.icon-circle-contact{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 5px 1px 0px;
+#contactInfo i, #contactInfo h4{
+    color: #87f767;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
-.icon-circle-contact:hover{
-    background-color: #87f767;
-}
-.icon-circle-contact i{
+#contactInfo i{
     font-size: 30px;
-    color: black;
-    justify-content: center;
-    align-items: center;
 }
+#contactInfo .col{
+    border-right: 1px solid #87f867;
+}
+#contactInfo .last{
+    border-right: 0;
+}
+#map iframe{
+    margin-top: 50px;
+    width: 100%;
+}
+
+
 
 /* FANNYPACK CATEGORIE */
 #fannyPack .row{
@@ -504,4 +493,49 @@ footer{
         font-size: 18px;
         max-width: 300px;
     }
+    .banner-contact h2{
+        font-size: 30px !important;
+    }
+    #contactInfo i, h4{
+        font-size: 18px;
+    }
+    #contactInfo h4{
+        margin-left: 0;
+    }
+    #contactInfo h5{
+        font-size: 15px;
+    }
+    #contactInfo .col{
+        width: 33,33%;
+        text-align: center;
+    }
+    #map iframe{
+        margin-bottom: 30px;
+    }
 }
+
+/* #contactInfo{
+    margin-top: 30px;
+}
+#contactInfo h5{
+    color: white;
+    font-size: 18px;
+}
+#contactInfo i, #contactInfo h4{
+    color: #87f767;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#contactInfo i{
+    font-size: 30px;
+}
+#contactInfo .col{
+    border-right: 1px solid #87f867;
+}
+#contactInfo .last{
+    border-right: 0;
+}
+#map iframe{
+    margin-top: 50px;
+    width: 100%;
+} */
