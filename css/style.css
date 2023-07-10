@@ -415,17 +415,20 @@ footer{
 .go-back-btn:hover{
     color: #87f867;
 }
-.addams img{
+.product img{
     margin-top: 30px;
+    object-fit: cover;
+    width: 500px;
+    height: 600px;
 }
-.addams h2{
+.product h2{
     color: #87f867;
     display: flex;
     justify-content: start;
     margin: 30px 0px 30px 0px;
     font-size: 38px;
 }
-.addams h3{
+.product h3{
     font-family: 'Raleway';
     color: white;
     display: flex;
@@ -433,12 +436,30 @@ footer{
     font-size: 18px;
     margin-bottom: 20px;
 }
-.addams h4{
+.product h4{
     color: white;
     font-size: 16px;
     font-family: 'Raleway';
     text-align: justify;
     margin-bottom: 20px;
+}
+.product a{
+    text-decoration: none;
+}
+.product a button{
+    background-color: #87f867;
+    border-color: #87f867;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    border-radius: 3px;
+    display: flex;
+    margin: 20px 0px 0px 0px;
+}
+
+/* COLOR */
+.picker-color{
+    display: flex;
 }
 .black-color{
     background-color: black;
@@ -449,20 +470,64 @@ footer{
     display: flex;
     justify-content: start;
     align-items: start;
+    margin-right: 10px;
 }
-.addams a{
-    text-decoration: none;
-}
-.addams a button{
-    background-color: #87f867;
-    border-color: #87f867;
-    font-size: 18px;
-    color: black;
-    padding: 5px;
-    border-radius: 3px;
+.beige-color{
+    background-color: #5e3d3d;
+    border: #5e3d3d solid 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
     display: flex;
-    margin: 20px 0px 0px 0px;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10px;
 }
+.pink-color{
+    background-color: #ee3fc8;
+    border: #ee3fc8 solid 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10px;
+}
+.white-color{
+    background-color: white;
+    border: white solid 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10px;
+}
+.red-color{
+    background-color: red;
+    border: red solid 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10px;
+}
+.orange-color{
+    background-color: orangered;
+    border: orangered solid 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10px; 
+}
+
 
 
 /* MEDIAQUERY MOBILE */
