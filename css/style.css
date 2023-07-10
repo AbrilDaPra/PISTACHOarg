@@ -15,11 +15,11 @@ header{
     z-index: 1;
 }
 .navbar-brand{
-    color: #87f767;
+    color: #87f867;
     margin-left: 30px;
 }
 .navbar-brand:hover{
-    color: #87f767;
+    color: #87f867;
 }
 .nav-item{
     margin-right: 30px;
@@ -30,18 +30,18 @@ header{
     margin-right: 10px;
 }
 .nav-link:hover{
-    color: #87f767;
+    color: #87f867;
 }
 
 .navbar-toggler{
-    color: #87f767;
-    border-color: #87f767;
+    color: #87f867;
+    border-color: #87f867;
 }
 button.navbar-toggler.collapsed{
-    background-color: #87f767;
+    background-color: #87f867;
 }
 button.navbar-toggler{
-    background-color: #87f767;
+    background-color: #87f867;
 }
 
 /* INDEX */
@@ -57,7 +57,7 @@ button.navbar-toggler{
     align-items: center;
 }
 #hero h2{
-    color: #87f767;
+    color: #87f867;
     font-size: 90px;
     text-align: center; 
 }
@@ -66,7 +66,7 @@ button.navbar-toggler{
 }
 .banner-index-btn{
     background-color: black;
-    color: #87f767;
+    color: #87f867;
     text-decoration: none;
     border-radius: 5px;
     padding: 10px;
@@ -90,7 +90,7 @@ button.navbar-toggler{
     padding-bottom: 60px;
 }
 #favorites h2{
-    color: #87f767;
+    color: #87f867;
     font-size: 40px;
     text-align: center;
     margin: 40px;
@@ -101,20 +101,20 @@ button.navbar-toggler{
     object-fit: cover;
 }
 #favorites h3{
-    color: #87f767;
+    color: #87f867;
     font-size: 25px;
     text-align: start;
     padding-top: 15px;
 }
 #favorites h4{
-    color: #87f767;
+    color: #87f867;
     font-size: 18px;
     text-align: start;
 }
 #favorites button{
-    background-color: #87f767;
+    background-color: #87f867;
     border-radius: 5px;
-    border-color: #87f767;
+    border-color: #87f867;
     padding: 5px 2px 5px 2px;
     display: flex;
     margin-top: 15px;
@@ -153,7 +153,7 @@ button.navbar-toggler{
     margin-bottom: 50px;
 }
 #instagram-posts h2{
-    color: #87f767;
+    color: #87f867;
     font-size: 40px;
     text-align: center;
     margin: 40px;
@@ -224,7 +224,7 @@ button.navbar-toggler{
     width: 100%;
     margin: 0;
     padding: 10px;
-    color: #87f767;
+    color: #87f867;
     text-align: center;
 }
 #categories .col{
@@ -251,21 +251,21 @@ button.navbar-toggler{
     object-fit: cover;
 }
 .categories h3{
-    color: #87f767;
+    color: #87f867;
     text-align: start;
     margin-top: 5px;
 }
 .categories h4{
-    color: #87f767;
+    color: #87f867;
     text-align: start;
     font-family: 'Raleway';
     font-size: 15px;
     margin-bottom: 10px;
 }
 .buy-btn{
-    background-color: #87f767;
+    background-color: #87f867;
     border-radius: 5px;
-    border-color: #87f767;
+    border-color: #87f867;
     padding: 5px;
     display: flex;
 }
@@ -279,7 +279,7 @@ button.navbar-toggler{
 
 /* CONTACT */
 .banner-contact{
-    background-color: #87f767;
+    background-color: #87f867;
     height: 30vh;
     display: flex;
     flex-direction: column;
@@ -295,7 +295,7 @@ button.navbar-toggler{
     text-decoration: none;
 }
 .banner-contact button a h2{
-    color: #87f767;
+    color: #87f867;
     font-size: 60px;
 }
 #contactInfo{
@@ -306,7 +306,7 @@ button.navbar-toggler{
     font-size: 18px;
 }
 #contactInfo i, #contactInfo h4{
-    color: #87f767;
+    color: #87f867;
     font-size: 20px;
     padding-bottom: 20px;
 }
@@ -349,7 +349,7 @@ button.navbar-toggler{
 /* HOW TO BUY */
 #howToBuy, #aboutUs{
     height: 80vh;
-    background-color: #87f767;
+    background-color: #87f867;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -389,7 +389,7 @@ footer{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #87f767;
+    background-color: #87f867;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -403,6 +403,65 @@ footer{
     color: black;
     justify-content: center;
     align-items: center;
+}
+
+/* EACH PRODUCT */
+.go-back-btn{
+    text-decoration: none;
+    color: #87f867;
+    font-size: 18px;
+    margin-left: 15px;
+}
+.go-back-btn:hover{
+    color: #87f867;
+}
+.addams img{
+    margin-top: 30px;
+}
+.addams h2{
+    color: #87f867;
+    display: flex;
+    justify-content: start;
+    margin: 30px 0px 30px 0px;
+    font-size: 38px;
+}
+.addams h3{
+    font-family: 'Raleway';
+    color: white;
+    display: flex;
+    justify-content: start;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.addams h4{
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway';
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.black-color{
+    background-color: black;
+    border: white solid 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.addams a{
+    text-decoration: none;
+}
+.addams a button{
+    background-color: #87f867;
+    border-color: #87f867;
+    font-size: 18px;
+    color: black;
+    padding: 5px;
+    border-radius: 3px;
+    display: flex;
+    margin: 20px 0px 0px 0px;
 }
 
 
@@ -513,29 +572,3 @@ footer{
         margin-bottom: 30px;
     }
 }
-
-/* #contactInfo{
-    margin-top: 30px;
-}
-#contactInfo h5{
-    color: white;
-    font-size: 18px;
-}
-#contactInfo i, #contactInfo h4{
-    color: #87f767;
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-#contactInfo i{
-    font-size: 30px;
-}
-#contactInfo .col{
-    border-right: 1px solid #87f867;
-}
-#contactInfo .last{
-    border-right: 0;
-}
-#map iframe{
-    margin-top: 50px;
-    width: 100%;
-} */
