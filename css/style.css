@@ -7,6 +7,9 @@
 body{
     background-color: black;
 }
+main{
+    height: auto;
+}
 
 /* NAV */
 header{
@@ -258,9 +261,14 @@ button.navbar-toggler{
 .categories h4{
     color: #87f867;
     text-align: start;
-    font-family: 'Raleway';
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 10px;
+}
+.categories .col{
+    margin-bottom: 30px;
+}
+.categories a{
+    text-decoration: none;
 }
 .buy-btn{
     background-color: #87f867;
@@ -415,6 +423,9 @@ footer{
 .go-back-btn:hover{
     color: #87f867;
 }
+.product{
+    height: 75vh;
+}
 .product img{
     margin-top: 30px;
     object-fit: cover;
@@ -430,6 +441,7 @@ footer{
 }
 .product h3{
     font-family: 'Raleway';
+    font-weight: bold;
     color: white;
     display: flex;
     justify-content: start;
@@ -440,6 +452,7 @@ footer{
     color: white;
     font-size: 16px;
     font-family: 'Raleway';
+    font-weight: bold;
     text-align: justify;
     margin-bottom: 20px;
 }
@@ -526,6 +539,51 @@ footer{
     justify-content: start;
     align-items: start;
     margin-right: 10px; 
+}
+.lime-color{
+    background-color: #7ddb7d;
+    border: #7ddb7d solid 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10px; 
+}
+.violet-color{
+    background-color: #9b389b;
+    border: #9b389b solid 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10px;    
+}
+.green-color{
+    background-color: #075007;
+    border: #075007 solid 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10px; 
+}
+.nude-color{
+    background-image: url('../images/bag-ginebra-snake.PNG');
+    background-repeat: no-repeat;
+    border: white solid 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10px;  
 }
 
 
@@ -635,5 +693,13 @@ footer{
     }
     #map iframe{
         margin-bottom: 30px;
+    }
+    .product .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .product img{
+        width: 400px;
+        height: 400px;
     }
 }
