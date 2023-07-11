@@ -585,6 +585,18 @@ footer{
     align-items: start;
     margin-right: 10px;  
 }
+.snake-color{
+    background-image: url('../images/bag-ginebra-snake.PNG');
+    background-repeat: no-repeat;
+    border: white solid 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10px;  
+}
 
 
 
@@ -693,6 +705,9 @@ footer{
     }
     #map iframe{
         margin-bottom: 30px;
+    }
+    .product{
+        height: 110vh;
     }
     .product .row{
         display: flex;
