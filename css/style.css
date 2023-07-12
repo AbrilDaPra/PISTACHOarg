@@ -660,7 +660,7 @@ footer{
         height: 180vh;
     }
     #fannyPack{
-        height: 270vh;
+        height: 280vh;
     }
     #bags{
         height: 270vh;
@@ -679,6 +679,7 @@ footer{
         margin-left: 25px;
     }
     #handbag .row{
+        flex-direction: column;
         margin: 0;
     }
     #wallet .row{
