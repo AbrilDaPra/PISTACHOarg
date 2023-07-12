@@ -118,13 +118,13 @@ button.navbar-toggler{
     background-color: #87f867;
     border-radius: 5px;
     border-color: #87f867;
+    color: black;
     padding: 5px 2px 5px 2px;
     display: flex;
     margin-top: 15px;
 }
-#favorites button a{
+#favorites a{
     text-decoration: none;
-    color: black;
 }
 #favorites .row{
     margin: 0px;
@@ -253,6 +253,10 @@ button.navbar-toggler{
     height: 400px;
     object-fit: cover;
 }
+.categories h2{
+    color: #87f867;
+    font-size: 50px;
+}
 .categories h3{
     color: #87f867;
     text-align: start;
@@ -336,22 +340,22 @@ button.navbar-toggler{
 
 /* FANNYPACK CATEGORIE */
 #fannyPack .row{
-    height: 80vh;
+    height: 70vh;
 }
 
 /* HANDBAG CATEGORIE */
 #handbag .row{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 /* BAGS CATEGORIE */
 #bags .row{
-    height: 80vh;
+    height: 70vh;
 }
 
 /* WALLET CATEGORIE */
 #wallet .row{
-    margin: 100px 0px 100px 0px;
+    margin: 50px 0px 50px 0px;
 }
 
 /* HOW TO BUY */
