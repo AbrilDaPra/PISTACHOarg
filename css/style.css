@@ -580,7 +580,7 @@ footer{
 .nude-color{
     background-image: url('../images/bag-ginebra-snake.PNG');
     background-repeat: no-repeat;
-    border: white solid 2px;
+    border: black solid 2px;
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -589,17 +589,41 @@ footer{
     align-items: start;
     margin-right: 10px;  
 }
-.snake-color{
-    background-image: url('../images/bag-ginebra-snake.PNG');
+.babypink-color{
+    background-color: #fc96a7;
     background-repeat: no-repeat;
-    border: white solid 2px;
+    border: #fc96a7 solid 2px;
     border-radius: 50%;
     width: 30px;
     height: 30px;
     display: flex;
     justify-content: start;
     align-items: start;
-    margin-right: 10px;  
+    margin-right: 10px; 
+}
+.croco-color{
+    background-image: url('../images/croco.PNG');
+    background-repeat: no-repeat;
+    border: black solid 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10px; 
+}
+.blue-color{
+    background-image: url('../images/croco-blue.jpg');
+    background-repeat: no-repeat;
+    border: black solid 2px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10px; 
 }
 
 
@@ -663,7 +687,7 @@ footer{
         height: 280vh;
     }
     #bags{
-        height: 270vh;
+        height: 280vh;
     }
     #fannyPack .col, #handbag .col, #bags .col, #wallet .col{
         padding-right: 0;
