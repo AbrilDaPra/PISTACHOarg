@@ -1,0 +1,207 @@
+main{
+    .go-back-btn{
+        text-decoration: none;
+        color: $primary-color;
+        font-size: 18px;
+        margin-left: 15px;
+        &:hover{
+            color: $primary-color;
+        }
+    }
+    .product{
+        height: 75vh;
+        img{
+            margin-top: 30px;
+            object-fit: cover;
+            width: 500px;
+            height: 600px;
+        }
+        h2{
+            color: $primary-color;
+            display: flex;
+            justify-content: start;
+            margin: 30px 0px 30px 0px;
+            font-size: 38px;
+        }
+        h3{
+            font-family: 'Raleway';
+            font-weight: bold;
+            color: $tertiary-color;
+            display: flex;
+            justify-content: start;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        h4{
+            color: $tertiary-color;
+            font-size: 16px;
+            font-family: 'Raleway';
+            font-weight: bold;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        .picker-color{
+            display: flex;
+            .black-color{
+                background-color: black;
+                border: white solid 2px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                margin-right: 10px;
+            }
+            .beige-color{
+                background-color: #5e3d3d;
+                border: #5e3d3d solid 2px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                margin-right: 10px;
+            }
+            .pink-color{
+                background-color: #ee3fc8;
+                border: #ee3fc8 solid 2px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                margin-right: 10px;
+            }
+            .white-color{
+                background-color: white;
+                border: white solid 2px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                margin-right: 10px;
+            }
+            .red-color{
+                background-color: red;
+                border: red solid 2px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                margin-right: 10px;
+            }
+            .orange-color{
+                background-color: orangered;
+                border: orangered solid 2px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                margin-right: 10px; 
+            }
+            .lime-color{
+                background-color: #7ddb7d;
+                border: #7ddb7d solid 2px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                margin-right: 10px; 
+            }
+            .violet-color{
+                background-color: #9b389b;
+                border: #9b389b solid 2px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                margin-right: 10px;    
+            }
+            .green-color{
+                background-color: #075007;
+                border: #075007 solid 2px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                margin-right: 10px; 
+            }
+            .nude-color{
+                background-image: url('../images/bag-ginebra-snake.PNG');
+                background-repeat: no-repeat;
+                border: black solid 2px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                margin-right: 10px;  
+            }
+            .babypink-color{
+                background-color: #fc96a7;
+                background-repeat: no-repeat;
+                border: #fc96a7 solid 2px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                margin-right: 10px; 
+            }
+            .croco-color{
+                background-image: url('../images/croco.PNG');
+                background-repeat: no-repeat;
+                border: black solid 2px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                margin-right: 10px; 
+            }
+            .blue-color{
+                background-image: url('../images/croco-blue.jpg');
+                background-repeat: no-repeat;
+                border: black solid 2px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                margin-right: 10px; 
+            }
+        }
+        a{
+            text-decoration: none;
+            button{
+                background-color: $primary-color;
+                border-color: $primary-color;
+                font-size: 18px;
+                color: $secondary-color;
+                padding: 5px;
+                border-radius: 3px;
+                display: flex;
+                margin: 20px 0px 0px 0px;
+            }
+        }
+    }
+}

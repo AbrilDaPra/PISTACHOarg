@@ -1,0 +1,37 @@
+main #categories .row {
+  height: 75vh;
+}
+main #categories .row .col-md-3 {
+  align-items: center;
+  display: flex;
+}
+main #categories .row .col-md-3 .image-bg {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+main #categories .row .col-md-3 .image-bg:hover {
+  transform: scale(1.1);
+}
+main #categories .row .col-md-3 .image-bg a {
+  text-decoration: none;
+}
+main #categories .row .col-md-3 .image-bg a img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+main #categories .row .col-md-3 .image-bg a h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  color: #87f867;
+  text-align: center;
+}
+
+/*# sourceMappingURL=catalogue.css.map */

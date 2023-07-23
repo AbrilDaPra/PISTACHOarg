@@ -1,0 +1,139 @@
+@media (max-width: 576px){
+    // HEADER
+    h1{
+        font-size: 30px;
+    }
+    .nav-item{
+        font-size: 16px;
+        .nav-link{
+            padding-left: 30px;
+        }
+    }
+    // INDEX
+    #hero h2{
+        font-size: 50px !important;
+    }
+    #favorites{
+        h2{
+        font-size: 30px;
+        }
+        h3, h4, button{
+            margin-left: 20px;
+        }
+        img{
+            margin-top: 20px;
+        }
+        // .instagram-container .row{
+        //     flex-direction: column;
+        //     justify-content: center;
+        //     align-items: center;
+        // }
+        // #completeImg, #fourImg, #twoImg{
+        //     width: 100%;
+        // }
+        // .four-img-container{
+        //     flex-wrap: wrap;
+        // }
+    }
+    // CATALOGUE
+    #categories{
+        height: auto !important;
+        .container-fluid{
+            height: 180vh;
+            .col-12{
+                height: 300px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-right: 0;
+                margin: 20px 0 20px 0;
+                .image-bg{
+                    img{
+                        width: 300px !important;
+                        height: 300px;
+                    }
+                    h2{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+    #fannyPack{
+        height: 280vh;
+    }
+    #bags{
+        height: 280vh;
+    }
+    #fannyPack .col, #handbag .col, #bags .col, #wallet .col{
+        padding-right: 0;
+        margin: 20px 0 20px 0;
+    }
+    #fannyPack h3, #handbag h3, #bags h3, #wallet h3{
+        padding-left: 25px;
+    }
+    #fannyPack h4, #handbag h4, #bags h4, #wallet h4{
+        padding-left: 22px;
+    }
+    #fannyPack button, #handbag button, #bags button, #wallet button{
+        margin-left: 25px;
+    }
+    #handbag .row{
+        flex-direction: column;
+        margin: 0;
+    }
+    #wallet .row{
+        margin: 0;
+    }
+    // CONTACT
+    .banner-contact h2{
+        font-size: 30px !important;
+    }
+    #contactInfo{
+        .col{
+            width: 33,33%;
+            text-align: center;
+            i{
+                font-size: 18px;
+            }
+            h4{
+                font-size: 18px;
+                margin-left: 0;
+            }
+            h5{
+                font-size: 15px;
+            }
+        }
+    }
+    #map iframe{
+        margin-bottom: 30px;
+    }
+    // EACH
+    .product{
+        height: auto !important;
+    }
+    .product .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .product img{
+        width: 400px;
+        height: 400px;
+    }
+    // HOW TO BUY
+    #howToBuy{
+        height: 100vh !important;
+        p{
+            font-size: 16px !important;
+            max-width: 300px !important;
+        }
+    }
+    // ABOUT US
+    #aboutUs{
+        height: 100vh !important;
+        p{
+            font-size: 16px !important;
+            max-width: 300px !important;
+        }
+    }
+}

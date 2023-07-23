@@ -1,0 +1,117 @@
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+  .nav-item {
+    font-size: 16px;
+  }
+  .nav-item .nav-link {
+    padding-left: 30px;
+  }
+  #hero h2 {
+    font-size: 50px !important;
+  }
+  #favorites h2 {
+    font-size: 30px;
+  }
+  #favorites h3, #favorites h4, #favorites button {
+    margin-left: 20px;
+  }
+  #favorites img {
+    margin-top: 20px;
+  }
+  #categories {
+    height: auto !important;
+  }
+  #categories .container-fluid {
+    height: 180vh;
+  }
+  #categories .container-fluid .col-12 {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+    margin: 20px 0 20px 0;
+  }
+  #categories .container-fluid .col-12 .image-bg img {
+    width: 300px !important;
+    height: 300px;
+  }
+  #categories .container-fluid .col-12 .image-bg h2 {
+    font-size: 30px;
+  }
+  #fannyPack {
+    height: 280vh;
+  }
+  #bags {
+    height: 280vh;
+  }
+  #fannyPack .col, #handbag .col, #bags .col, #wallet .col {
+    padding-right: 0;
+    margin: 20px 0 20px 0;
+  }
+  #fannyPack h3, #handbag h3, #bags h3, #wallet h3 {
+    padding-left: 25px;
+  }
+  #fannyPack h4, #handbag h4, #bags h4, #wallet h4 {
+    padding-left: 22px;
+  }
+  #fannyPack button, #handbag button, #bags button, #wallet button {
+    margin-left: 25px;
+  }
+  #handbag .row {
+    flex-direction: column;
+    margin: 0;
+  }
+  #wallet .row {
+    margin: 0;
+  }
+  .banner-contact h2 {
+    font-size: 30px !important;
+  }
+  #contactInfo .col {
+    width: 33, 33%;
+    text-align: center;
+  }
+  #contactInfo .col i {
+    font-size: 18px;
+  }
+  #contactInfo .col h4 {
+    font-size: 18px;
+    margin-left: 0;
+  }
+  #contactInfo .col h5 {
+    font-size: 15px;
+  }
+  #map iframe {
+    margin-bottom: 30px;
+  }
+  .product {
+    height: auto !important;
+  }
+  .product .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .product img {
+    width: 400px;
+    height: 400px;
+  }
+  #howToBuy {
+    height: 100vh !important;
+  }
+  #howToBuy p {
+    font-size: 16px !important;
+    max-width: 300px !important;
+  }
+  #aboutUs {
+    height: 100vh !important;
+  }
+  #aboutUs p {
+    font-size: 16px !important;
+    max-width: 300px !important;
+  }
+}
+
+/*# sourceMappingURL=mediaqueries.css.map */

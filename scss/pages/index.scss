@@ -1,0 +1,131 @@
+main{
+    #hero{
+        background-color: $secondary-color;
+        background-repeat: repeat-x;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h2{
+            color: $primary-color;
+            font-size: 90px;
+            text-align: center; 
+        }
+        #bannerTypography{
+            animation: changeTypography 2s infinite;
+        }
+    }
+    #favorites{
+        padding-bottom: 60px;
+        h2{
+            color: $primary-color;
+            font-size: 40px;
+            text-align: center;
+            margin: 40px;
+        }
+        .row{
+            margin: 0px;
+            a{
+                text-decoration: none;
+                img{
+                    width: 300px;
+                    height: 400px;
+                    object-fit: cover;
+                }
+                h3{
+                    color: $primary-color;
+                    font-size: 25px;
+                    text-align: start;
+                    padding-top: 15px;
+                }
+                h4{
+                    color: $primary-color;
+                    font-size: 18px;
+                    text-align: start;
+                }
+                button{
+                    background-color: $primary-color;
+                    border-radius: 5px;
+                    border-color: $primary-color;
+                    color: $secondary-color;
+                    padding: 5px 2px 5px 2px;
+                    display: flex;
+                    margin-top: 15px;
+                }
+            } 
+        }
+    }
+}
+
+@keyframes changeTypography {
+    0% {
+      font-family: 'Pathway Gothic One', sans-serif;
+    }
+    100% {
+      font-family: 'Raleway', sans-serif;
+    }
+}
+
+
+// .row{
+//     margin-right: 2px;
+// }
+// #splitImage{
+//     width: 10%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+// #fourImg{
+//     width: 20%;
+// }
+// #completeImg{
+//     width: 20%;
+// }
+// #twoImg{
+//     width: 10%;
+// }
+// .instagram-container{
+//     width: 100%;
+//     display: flex;
+//     flex-wrap: wrap;
+//     margin-bottom: 50px;
+// }
+// #instagram-posts h2{
+//     color: #87f867;
+//     font-size: 40px;
+//     text-align: center;
+//     margin: 40px;
+// }
+// #instagram-posts img{
+//     border-radius: 50%;
+//     object-fit: cover;
+// }
+// .split-image{
+//     clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+//     width: 50%;
+//     transform: scale(3);
+//     margin: 0;
+//     padding: 0;
+// }
+// .four-img{
+//     width: 150px;
+//     height: 150px;
+//     margin: 0;
+//     padding: 0;
+// }
+// .complete-img{
+//     width: 300px;
+//     height: 300px;
+//     margin: 0;
+//     padding: 0;
+// }
+// .two-img{
+//     width: 150px;
+//     height: 150px;
+//     display: grid;
+//     margin: 0;
+//     padding: 0;
+// }

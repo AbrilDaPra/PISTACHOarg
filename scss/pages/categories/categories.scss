@@ -1,0 +1,60 @@
+main{
+    /* FANNYPACK CATEGORIE */
+    #fannyPack .row{
+        height: 70vh;
+    }
+    /* HANDBAG CATEGORIE */
+    #handbag .row{
+        margin-top: 50px;
+    }
+    /* BAGS CATEGORIE */
+    #bags .row{
+        height: 70vh;
+    }
+    /* WALLET CATEGORIE */
+    #wallet .row{
+        margin: 50px 0px 50px 0px;
+    }
+    .categories{
+        h2{
+            color: $primary-color;
+            font-size: 50px;
+        }
+        .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .col{
+                margin-bottom: 30px;
+                a{
+                    text-decoration: none;
+                    img{
+                        width: 300px;
+                        height: 400px;
+                        object-fit: cover;
+                    }
+                    h3{
+                        color: $primary-color;
+                        text-align: start;
+                        margin-top: 5px;
+                    }
+                    h4{
+                        color: $primary-color;
+                        text-align: start;
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                    }
+                    .buy-btn{
+                        background-color: $primary-color;
+                        border-radius: 5px;
+                        border-color: $primary-color;
+                        padding: 5px;
+                        display: flex;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

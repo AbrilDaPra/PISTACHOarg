@@ -1,0 +1,664 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Raleway:wght@100&display=swap");
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+  .nav-item {
+    font-size: 16px;
+  }
+  .nav-item .nav-link {
+    padding-left: 30px;
+  }
+  #hero h2 {
+    font-size: 50px !important;
+  }
+  #favorites h2 {
+    font-size: 30px;
+  }
+  #favorites h3, #favorites h4, #favorites button {
+    margin-left: 20px;
+  }
+  #favorites img {
+    margin-top: 20px;
+  }
+  #categories {
+    height: auto !important;
+  }
+  #categories .container-fluid {
+    height: 180vh;
+  }
+  #categories .container-fluid .col-12 {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0;
+    margin: 20px 0 20px 0;
+  }
+  #categories .container-fluid .col-12 .image-bg img {
+    width: 300px !important;
+    height: 300px;
+  }
+  #categories .container-fluid .col-12 .image-bg h2 {
+    font-size: 30px;
+  }
+  #fannyPack {
+    height: 280vh;
+  }
+  #bags {
+    height: 280vh;
+  }
+  #fannyPack .col, #handbag .col, #bags .col, #wallet .col {
+    padding-right: 0;
+    margin: 20px 0 20px 0;
+  }
+  #fannyPack h3, #handbag h3, #bags h3, #wallet h3 {
+    padding-left: 25px;
+  }
+  #fannyPack h4, #handbag h4, #bags h4, #wallet h4 {
+    padding-left: 22px;
+  }
+  #fannyPack button, #handbag button, #bags button, #wallet button {
+    margin-left: 25px;
+  }
+  #handbag .row {
+    flex-direction: column;
+    margin: 0;
+  }
+  #wallet .row {
+    margin: 0;
+  }
+  .banner-contact h2 {
+    font-size: 30px !important;
+  }
+  #contactInfo .col {
+    width: 33, 33%;
+    text-align: center;
+  }
+  #contactInfo .col i {
+    font-size: 18px;
+  }
+  #contactInfo .col h4 {
+    font-size: 18px;
+    margin-left: 0;
+  }
+  #contactInfo .col h5 {
+    font-size: 15px;
+  }
+  #map iframe {
+    margin-bottom: 30px;
+  }
+  .product {
+    height: auto !important;
+  }
+  .product .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .product img {
+    width: 400px;
+    height: 400px;
+  }
+  #howToBuy {
+    height: 100vh !important;
+  }
+  #howToBuy p {
+    font-size: 16px !important;
+    max-width: 300px !important;
+  }
+  #aboutUs {
+    height: 100vh !important;
+  }
+  #aboutUs p {
+    font-size: 16px !important;
+    max-width: 300px !important;
+  }
+}
+body {
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+}
+footer .icon-container {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+footer .icon-container .icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #87f867;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+footer .icon-container .icon-circle:hover {
+  background-color: white;
+}
+footer .icon-container .icon-circle i {
+  font-size: 30px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+footer .aby h5 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway";
+  font-size: 17px;
+}
+footer .aby h5 a {
+  text-decoration: none;
+  color: #87f867;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  z-index: 1;
+}
+header .navbar-brand {
+  color: #87f867;
+  margin-left: 30px;
+}
+header .navbar-brand:hover {
+  color: #87f867;
+}
+header .navbar-toggler {
+  color: #87f867;
+  border-color: #87f867;
+  background-color: #87f867;
+}
+header .navbar-toggler .collapsed {
+  background-color: #87f867;
+}
+header .nav-item {
+  margin-right: 30px;
+}
+header .nav-item .nav-link {
+  color: white;
+  font-size: 23px;
+  margin-right: 10px;
+}
+header .nav-item .nav-link:hover {
+  color: #87f867;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+main {
+  height: auto;
+}
+
+main {
+  /* FANNYPACK CATEGORIE */
+  /* HANDBAG CATEGORIE */
+  /* BAGS CATEGORIE */
+  /* WALLET CATEGORIE */
+}
+main #fannyPack .row {
+  height: 70vh;
+}
+main #handbag .row {
+  margin-top: 50px;
+}
+main #bags .row {
+  height: 70vh;
+}
+main #wallet .row {
+  margin: 50px 0px 50px 0px;
+}
+main .categories h2 {
+  color: #87f867;
+  font-size: 50px;
+}
+main .categories .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .categories .row .col {
+  margin-bottom: 30px;
+}
+main .categories .row .col a {
+  text-decoration: none;
+}
+main .categories .row .col a img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+main .categories .row .col a h3 {
+  color: #87f867;
+  text-align: start;
+  margin-top: 5px;
+}
+main .categories .row .col a h4 {
+  color: #87f867;
+  text-align: start;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+main .categories .row .col a .buy-btn {
+  background-color: #87f867;
+  border-radius: 5px;
+  border-color: #87f867;
+  padding: 5px;
+  display: flex;
+}
+
+main .go-back-btn {
+  text-decoration: none;
+  color: #87f867;
+  font-size: 18px;
+  margin-left: 15px;
+}
+main .go-back-btn:hover {
+  color: #87f867;
+}
+main .product {
+  height: 75vh;
+}
+main .product img {
+  margin-top: 30px;
+  object-fit: cover;
+  width: 500px;
+  height: 600px;
+}
+main .product h2 {
+  color: #87f867;
+  display: flex;
+  justify-content: start;
+  margin: 30px 0px 30px 0px;
+  font-size: 38px;
+}
+main .product h3 {
+  font-family: "Raleway";
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: start;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+main .product h4 {
+  color: white;
+  font-size: 16px;
+  font-family: "Raleway";
+  font-weight: bold;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+main .product .picker-color {
+  display: flex;
+}
+main .product .picker-color .black-color {
+  background-color: black;
+  border: white solid 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-right: 10px;
+}
+main .product .picker-color .beige-color {
+  background-color: #5e3d3d;
+  border: #5e3d3d solid 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-right: 10px;
+}
+main .product .picker-color .pink-color {
+  background-color: #ee3fc8;
+  border: #ee3fc8 solid 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-right: 10px;
+}
+main .product .picker-color .white-color {
+  background-color: white;
+  border: white solid 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-right: 10px;
+}
+main .product .picker-color .red-color {
+  background-color: red;
+  border: red solid 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-right: 10px;
+}
+main .product .picker-color .orange-color {
+  background-color: orangered;
+  border: orangered solid 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-right: 10px;
+}
+main .product .picker-color .lime-color {
+  background-color: #7ddb7d;
+  border: #7ddb7d solid 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-right: 10px;
+}
+main .product .picker-color .violet-color {
+  background-color: #9b389b;
+  border: #9b389b solid 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-right: 10px;
+}
+main .product .picker-color .green-color {
+  background-color: #075007;
+  border: #075007 solid 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-right: 10px;
+}
+main .product .picker-color .nude-color {
+  background-image: url("../images/bag-ginebra-snake.PNG");
+  background-repeat: no-repeat;
+  border: black solid 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-right: 10px;
+}
+main .product .picker-color .babypink-color {
+  background-color: #fc96a7;
+  background-repeat: no-repeat;
+  border: #fc96a7 solid 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-right: 10px;
+}
+main .product .picker-color .croco-color {
+  background-image: url("../images/croco.PNG");
+  background-repeat: no-repeat;
+  border: black solid 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-right: 10px;
+}
+main .product .picker-color .blue-color {
+  background-image: url("../images/croco-blue.jpg");
+  background-repeat: no-repeat;
+  border: black solid 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-right: 10px;
+}
+main .product a {
+  text-decoration: none;
+}
+main .product a button {
+  background-color: #87f867;
+  border-color: #87f867;
+  font-size: 18px;
+  color: black;
+  padding: 5px;
+  border-radius: 3px;
+  display: flex;
+  margin: 20px 0px 0px 0px;
+}
+
+main #aboutUs {
+  height: 80vh;
+  background-color: #87f867;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #aboutUs p {
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+  max-width: 700px;
+  font-family: "Raleway";
+  font-weight: bold;
+}
+main #aboutUs p h2 {
+  font-family: "Pathway Gothic One";
+  text-align: start;
+}
+
+main #categories .row {
+  height: 75vh;
+}
+main #categories .row .col-md-3 {
+  align-items: center;
+  display: flex;
+}
+main #categories .row .col-md-3 .image-bg {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+main #categories .row .col-md-3 .image-bg:hover {
+  transform: scale(1.1);
+}
+main #categories .row .col-md-3 .image-bg a {
+  text-decoration: none;
+}
+main #categories .row .col-md-3 .image-bg a img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+main #categories .row .col-md-3 .image-bg a h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  color: #87f867;
+  text-align: center;
+}
+
+main .banner-contact {
+  background-color: #87f867;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .banner-contact button {
+  background-color: black;
+  border: 0;
+  padding: 20px;
+}
+main .banner-contact button a {
+  text-decoration: none;
+}
+main .banner-contact button a h2 {
+  color: #87f867;
+  font-size: 60px;
+}
+main #contactInfo {
+  margin-top: 30px;
+}
+main #contactInfo .col {
+  border-right: 1px solid #87f867;
+}
+main #contactInfo .col i {
+  color: #87f867;
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+main #contactInfo .col h4 {
+  color: #87f867;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+main #contactInfo .col h5 {
+  color: white;
+  font-size: 18px;
+}
+main #contactInfo .last {
+  border-right: 0;
+}
+main #map iframe {
+  margin-top: 50px;
+  width: 100%;
+}
+
+main #howToBuy {
+  height: 80vh;
+  background-color: #87f867;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #howToBuy h3 {
+  font-size: 40px;
+  margin: 20px;
+}
+main #howToBuy p {
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+  max-width: 700px;
+  font-family: "Raleway";
+  font-weight: bold;
+}
+main #howToBuy p h2 {
+  font-family: "Pathway Gothic One";
+  text-align: start;
+}
+
+main #hero {
+  background-color: black;
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main #hero h2 {
+  color: #87f867;
+  font-size: 90px;
+  text-align: center;
+}
+main #hero #bannerTypography {
+  animation: changeTypography 2s infinite;
+}
+main #favorites {
+  padding-bottom: 60px;
+}
+main #favorites h2 {
+  color: #87f867;
+  font-size: 40px;
+  text-align: center;
+  margin: 40px;
+}
+main #favorites .row {
+  margin: 0px;
+}
+main #favorites .row a {
+  text-decoration: none;
+}
+main #favorites .row a img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+main #favorites .row a h3 {
+  color: #87f867;
+  font-size: 25px;
+  text-align: start;
+  padding-top: 15px;
+}
+main #favorites .row a h4 {
+  color: #87f867;
+  font-size: 18px;
+  text-align: start;
+}
+main #favorites .row a button {
+  background-color: #87f867;
+  border-radius: 5px;
+  border-color: #87f867;
+  color: black;
+  padding: 5px 2px 5px 2px;
+  display: flex;
+  margin-top: 15px;
+}
+
+@keyframes changeTypography {
+  0% {
+    font-family: "Pathway Gothic One", sans-serif;
+  }
+  100% {
+    font-family: "Raleway", sans-serif;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,37 @@
+main{
+    #categories .row{
+        height: 75vh;
+        .col-md-3{
+            align-items: center;
+            display: flex;
+            .image-bg{
+                position: relative;
+                display: inline-block;
+                transition: transform 0.3s ease-in-out;
+                &:hover{
+                    transform: scale(1.1);
+                }
+                a{
+                    text-decoration: none;
+                    img{
+                        display: block;
+                        width: 100%;
+                        height: auto;
+                    }
+                    h2{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        font-size: 40px;
+                        width: 100%;
+                        margin: 0;
+                        padding: 10px;
+                        color: #87f867;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
