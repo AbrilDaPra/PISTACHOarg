@@ -14,11 +14,13 @@
   #favorites h2 {
     font-size: 30px;
   }
-  #favorites h3, #favorites h4, #favorites button {
-    margin-left: 20px;
-  }
-  #favorites img {
+  #favorites .col img {
     margin-top: 20px;
+    text-align: center;
+  }
+  #favorites .col h3, #favorites .col h4 {
+    display: flex;
+    justify-content: center;
   }
   #categories {
     height: auto !important;
@@ -51,14 +53,12 @@
     padding-right: 0;
     margin: 20px 0 20px 0;
   }
-  #fannyPack h3, #handbag h3, #bags h3, #wallet h3 {
-    padding-left: 25px;
+  .categories .col img {
+    text-align: center;
   }
-  #fannyPack h4, #handbag h4, #bags h4, #wallet h4 {
-    padding-left: 22px;
-  }
-  #fannyPack button, #handbag button, #bags button, #wallet button {
-    margin-left: 25px;
+  .categories .col h3, .categories .col h4 {
+    display: flex;
+    justify-content: center !important;
   }
   #handbag .row {
     flex-direction: column;

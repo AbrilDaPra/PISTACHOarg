@@ -15,11 +15,13 @@
   #favorites h2 {
     font-size: 30px;
   }
-  #favorites h3, #favorites h4, #favorites button {
-    margin-left: 20px;
-  }
-  #favorites img {
+  #favorites .col img {
     margin-top: 20px;
+    text-align: center;
+  }
+  #favorites .col h3, #favorites .col h4 {
+    display: flex;
+    justify-content: center;
   }
   #categories {
     height: auto !important;
@@ -52,14 +54,12 @@
     padding-right: 0;
     margin: 20px 0 20px 0;
   }
-  #fannyPack h3, #handbag h3, #bags h3, #wallet h3 {
-    padding-left: 25px;
+  .categories .col img {
+    text-align: center;
   }
-  #fannyPack h4, #handbag h4, #bags h4, #wallet h4 {
-    padding-left: 22px;
-  }
-  #fannyPack button, #handbag button, #bags button, #wallet button {
-    margin-left: 25px;
+  .categories .col h3, .categories .col h4 {
+    display: flex;
+    justify-content: center !important;
   }
   #handbag .row {
     flex-direction: column;
@@ -231,6 +231,7 @@ main .categories .row .col {
 }
 main .categories .row .col a {
   text-decoration: none;
+  color: white;
 }
 main .categories .row .col a img {
   width: 300px;
@@ -239,12 +240,12 @@ main .categories .row .col a img {
 }
 main .categories .row .col a h3 {
   color: #87f867;
-  text-align: start;
+  text-align: center;
   margin-top: 5px;
 }
 main .categories .row .col a h4 {
   color: #87f867;
-  text-align: start;
+  text-align: center;
   font-size: 18px;
   margin-bottom: 10px;
 }
@@ -253,7 +254,6 @@ main .categories .row .col a .buy-btn {
   border-radius: 5px;
   border-color: #87f867;
   padding: 5px;
-  display: flex;
 }
 
 main .go-back-btn {
@@ -634,13 +634,13 @@ main #favorites .row a img {
 main #favorites .row a h3 {
   color: #87f867;
   font-size: 25px;
-  text-align: start;
+  text-align: center;
   padding-top: 15px;
 }
 main #favorites .row a h4 {
   color: #87f867;
   font-size: 18px;
-  text-align: start;
+  text-align: center;
 }
 main #favorites .row a button {
   background-color: #87f867;
@@ -648,7 +648,6 @@ main #favorites .row a button {
   border-color: #87f867;
   color: black;
   padding: 5px 2px 5px 2px;
-  display: flex;
   margin-top: 15px;
 }
 

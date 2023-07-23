@@ -17,12 +17,17 @@
         h2{
         font-size: 30px;
         }
-        h3, h4, button{
-            margin-left: 20px;
+        .col{
+            img{
+                margin-top: 20px;
+                text-align: center;
+            }
+            h3, h4{
+                display: flex;
+                justify-content: center;
+            }
         }
-        img{
-            margin-top: 20px;
-        }
+     
         // .instagram-container .row{
         //     flex-direction: column;
         //     justify-content: center;
@@ -69,15 +74,26 @@
         padding-right: 0;
         margin: 20px 0 20px 0;
     }
-    #fannyPack h3, #handbag h3, #bags h3, #wallet h3{
-        padding-left: 25px;
+    .categories{
+        .col{
+            img{
+                text-align: center;
+            }
+            h3, h4{
+                display: flex;
+                justify-content: center !important;
+            }
+        }
     }
-    #fannyPack h4, #handbag h4, #bags h4, #wallet h4{
-        padding-left: 22px;
-    }
-    #fannyPack button, #handbag button, #bags button, #wallet button{
-        margin-left: 25px;
-    }
+    // #fannyPack h3, #handbag h3, #bags h3, #wallet h3{
+    //     padding-left: 25px;
+    // }
+    // #fannyPack h4, #handbag h4, #bags h4, #wallet h4{
+    //     padding-left: 22px;
+    // }
+    // #fannyPack button, #handbag button, #bags button, #wallet button{
+    //     margin-left: 25px;
+    // }
     #handbag .row{
         flex-direction: column;
         margin: 0;

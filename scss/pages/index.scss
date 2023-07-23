@@ -37,13 +37,13 @@ main{
                 h3{
                     color: $primary-color;
                     font-size: 25px;
-                    text-align: start;
+                    text-align: center;
                     padding-top: 15px;
                 }
                 h4{
                     color: $primary-color;
                     font-size: 18px;
-                    text-align: start;
+                    text-align: center;
                 }
                 button{
                     background-color: $primary-color;
@@ -51,7 +51,7 @@ main{
                     border-color: $primary-color;
                     color: $secondary-color;
                     padding: 5px 2px 5px 2px;
-                    display: flex;
+                    // display: flex;
                     margin-top: 15px;
                 }
             } 
