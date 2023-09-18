@@ -48,7 +48,7 @@
     height: 280vh;
   }
   #bags {
-    height: 280vh;
+    height: auto;
   }
   #fannyPack .col, #handbag .col, #bags .col, #wallet .col {
     padding-right: 0;
@@ -212,7 +212,7 @@ main #handbag .row {
   margin-top: 50px;
 }
 main #bags .row {
-  height: 70vh;
+  height: AUTO;
 }
 main #wallet .row {
   margin: 50px 0px 50px 0px;

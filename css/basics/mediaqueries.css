@@ -47,7 +47,7 @@
     height: 280vh;
   }
   #bags {
-    height: 280vh;
+    height: auto;
   }
   #fannyPack .col, #handbag .col, #bags .col, #wallet .col {
     padding-right: 0;
