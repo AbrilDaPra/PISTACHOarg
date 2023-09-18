@@ -10,8 +10,14 @@
         }
     }
     // INDEX
-    #hero h2{
-        font-size: 50px !important;
+    #hero{
+        background-image: url('../../images/banner.jpg');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        h2{
+            font-size: 50px !important;
+        }
     }
     #favorites{
         h2{

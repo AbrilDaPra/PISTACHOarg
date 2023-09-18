@@ -9,6 +9,12 @@
   .nav-item .nav-link {
     padding-left: 30px;
   }
+  #hero {
+    background-image: url("../../images/banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   #hero h2 {
     font-size: 50px !important;
   }
@@ -598,9 +604,8 @@ main #howToBuy p h2 {
 
 main #hero {
   background-color: black;
-  background-repeat: repeat-x;
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

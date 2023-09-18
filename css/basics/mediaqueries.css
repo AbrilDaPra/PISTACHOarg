@@ -8,6 +8,12 @@
   .nav-item .nav-link {
     padding-left: 30px;
   }
+  #hero {
+    background-image: url("../../images/banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   #hero h2 {
     font-size: 50px !important;
   }
