@@ -21,9 +21,13 @@
   #favorites h2 {
     font-size: 30px;
   }
-  #favorites .col img {
+  #favorites .col .img-container img {
     margin-top: 20px;
     text-align: center;
+  }
+  #favorites .col .img-container .promo {
+    top: 20px !important;
+    left: 33px !important;
   }
   #favorites .col h3, #favorites .col h4 {
     display: flex;
@@ -60,8 +64,11 @@
     padding-right: 0;
     margin: 20px 0 20px 0;
   }
-  .categories .col img {
+  .categories .col .img-container img {
     text-align: center;
+  }
+  .categories .col .img-container .promo {
+    left: 39px !important;
   }
   .categories .col h3, .categories .col h4 {
     display: flex;
@@ -239,10 +246,25 @@ main .categories .row .col a {
   text-decoration: none;
   color: white;
 }
-main .categories .row .col a img {
+main .categories .row .col a .img-container {
+  overflow: hidden;
+  position: relative;
+}
+main .categories .row .col a .img-container img {
   width: 300px;
   height: 400px;
   object-fit: cover;
+}
+main .categories .row .col a .img-container .promo {
+  position: absolute;
+  top: 10px;
+  left: 3;
+  font-size: 20px;
+  background-color: #87f867;
+  padding: 15px;
+  color: black;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
 }
 main .categories .row .col a h3 {
   color: #87f867;
@@ -633,6 +655,26 @@ main #favorites .row {
 }
 main #favorites .row a {
   text-decoration: none;
+}
+main #favorites .row a .img-container {
+  overflow: hidden;
+  position: relative;
+}
+main #favorites .row a .img-container img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+main #favorites .row a .img-container .promo {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-size: 20px;
+  background-color: #87f867;
+  padding: 15px;
+  color: black;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
 }
 main #favorites .row a img {
   width: 300px;

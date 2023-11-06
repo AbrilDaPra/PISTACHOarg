@@ -20,9 +20,13 @@
   #favorites h2 {
     font-size: 30px;
   }
-  #favorites .col img {
+  #favorites .col .img-container img {
     margin-top: 20px;
     text-align: center;
+  }
+  #favorites .col .img-container .promo {
+    top: 20px !important;
+    left: 33px !important;
   }
   #favorites .col h3, #favorites .col h4 {
     display: flex;
@@ -59,8 +63,11 @@
     padding-right: 0;
     margin: 20px 0 20px 0;
   }
-  .categories .col img {
+  .categories .col .img-container img {
     text-align: center;
+  }
+  .categories .col .img-container .promo {
+    left: 39px !important;
   }
   .categories .col h3, .categories .col h4 {
     display: flex;
