@@ -17,6 +17,18 @@ main{
             height: 600px;
             border-radius: 50px;
         }
+        .stock{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            font-size: 16px;
+            background-color: $primary-color;
+            color: $secondary-color;
+            padding: 8px;
+            width: 100%;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+        }
         .product-title{
             color: $primary-color;
             display: flex;

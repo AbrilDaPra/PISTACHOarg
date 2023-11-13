@@ -266,6 +266,16 @@ main .categories .row .col a .img-container .promo {
   border-bottom-right-radius: 25px;
   border-top-right-radius: 25px;
 }
+main .categories .row .col a .img-container .stock {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 16px;
+  background-color: #87f867;
+  color: black;
+  padding: 8px;
+  width: 100%;
+}
 main .categories .row .col a h3 {
   color: #87f867;
   text-align: center;
@@ -304,6 +314,18 @@ main .product img {
   width: 500px;
   height: 600px;
   border-radius: 50px;
+}
+main .product .stock {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 16px;
+  background-color: #87f867;
+  color: black;
+  padding: 8px;
+  width: 100%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 main .product .product-title {
   color: #87f867;
