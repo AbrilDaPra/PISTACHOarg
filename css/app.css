@@ -279,9 +279,11 @@ main .categories .row .col a h4 {
 }
 main .categories .row .col a .buy-btn {
   background-color: #87f867;
-  border-radius: 5px;
-  border-color: #87f867;
-  padding: 5px;
+  border-radius: 27px;
+  color: black;
+  padding: 9px;
+  margin-top: 15px;
+  border: none;
 }
 
 main .go-back-btn {
@@ -301,30 +303,33 @@ main .product img {
   object-fit: cover;
   width: 500px;
   height: 600px;
+  border-radius: 50px;
 }
-main .product h2 {
+main .product .product-title {
   color: #87f867;
   display: flex;
   justify-content: start;
   margin: 30px 0px 30px 0px;
   font-size: 38px;
 }
-main .product h3 {
-  font-family: "Raleway";
-  font-weight: bold;
+main .product .description-title {
   color: white;
   display: flex;
   justify-content: start;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
-main .product h4 {
-  color: white;
-  font-size: 16px;
-  font-family: "Raleway";
-  font-weight: bold;
+main .product .price {
+  color: #87f867;
+  font-size: 20px;
   text-align: justify;
   margin-bottom: 20px;
+}
+main .product .description {
+  color: white;
+  text-align: start;
+  font-family: "Raleway";
+  font-size: 15px;
 }
 main .product .picker-color {
   display: flex;
@@ -480,14 +485,15 @@ main .product a {
   text-decoration: none;
 }
 main .product a button {
-  background-color: #87f867;
-  border-color: #87f867;
   font-size: 18px;
   color: black;
-  padding: 5px;
-  border-radius: 3px;
   display: flex;
   margin: 20px 0px 0px 0px;
+  background-color: #87f867;
+  border-radius: 27px;
+  color: black;
+  padding: 9px;
+  border: none;
 }
 
 main #aboutUs {
@@ -694,11 +700,11 @@ main #favorites .row a h4 {
 }
 main #favorites .row a button {
   background-color: #87f867;
-  border-radius: 5px;
-  border-color: #87f867;
+  border-radius: 27px;
   color: black;
-  padding: 5px 2px 5px 2px;
+  padding: 9px;
   margin-top: 15px;
+  border: none;
 }
 
 @keyframes changeTypography {

@@ -15,30 +15,33 @@ main{
             object-fit: cover;
             width: 500px;
             height: 600px;
+            border-radius: 50px;
         }
-        h2{
+        .product-title{
             color: $primary-color;
             display: flex;
             justify-content: start;
             margin: 30px 0px 30px 0px;
             font-size: 38px;
         }
-        h3{
-            font-family: 'Raleway';
-            font-weight: bold;
+        .description-title{
             color: $tertiary-color;
             display: flex;
             justify-content: start;
-            font-size: 18px;
+            font-size: 20px;
             margin-bottom: 20px;
         }
-        h4{
-            color: $tertiary-color;
-            font-size: 16px;
-            font-family: 'Raleway';
-            font-weight: bold;
+        .price{
+            color: $primary-color;
+            font-size: 20px;
             text-align: justify;
             margin-bottom: 20px;
+        }
+        .description{
+            color: $tertiary-color;
+            text-align: start;
+            font-family: 'Raleway';
+            font-size: 15px;
         }
         .picker-color{
             display: flex;
@@ -193,14 +196,15 @@ main{
         a{
             text-decoration: none;
             button{
-                background-color: $primary-color;
-                border-color: $primary-color;
                 font-size: 18px;
                 color: $secondary-color;
-                padding: 5px;
-                border-radius: 3px;
                 display: flex;
                 margin: 20px 0px 0px 0px;
+                background-color: $primary-color;
+                border-radius: 27px;
+                color: $secondary-color;
+                padding: 9px;
+                border: none;
             }
         }
     }

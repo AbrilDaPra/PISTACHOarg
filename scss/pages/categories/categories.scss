@@ -62,9 +62,11 @@ main{
                     }
                     .buy-btn{
                         background-color: $primary-color;
-                        border-radius: 5px;
-                        border-color: $primary-color;
-                        padding: 5px;
+                        border-radius: 27px;
+                        color: $secondary-color;
+                        padding: 9px;
+                        margin-top: 15px;
+                        border: none;
                     }
                 }
             }

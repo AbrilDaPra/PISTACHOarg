@@ -67,12 +67,12 @@ main{
                 }
                 button{
                     background-color: $primary-color;
-                    border-radius: 5px;
-                    border-color: $primary-color;
+                    border-radius: 27px;
                     color: $secondary-color;
-                    padding: 5px 2px 5px 2px;
+                    padding: 9px;
                     // display: flex;
                     margin-top: 15px;
+                    border: none;
                 }
             } 
         }
