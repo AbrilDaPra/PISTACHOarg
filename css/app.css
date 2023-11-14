@@ -218,9 +218,6 @@ main {
   /* BAGS CATEGORIE */
   /* WALLET CATEGORIE */
 }
-main #fannyPack .row {
-  height: 70vh;
-}
 main #handbag .row {
   margin-top: 50px;
 }
