@@ -54,10 +54,10 @@
     font-size: 30px;
   }
   #fannyPack {
-    height: 280vh;
+    height: auto !important;
   }
   #bags {
-    height: auto;
+    height: auto !important;
   }
   #fannyPack .col, #handbag .col, #bags .col, #wallet .col {
     padding-right: 0;

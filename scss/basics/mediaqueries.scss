@@ -77,10 +77,10 @@
         }
     }
     #fannyPack{
-        height: auto;
+        height: auto !important;
     }
     #bags{
-        height: auto;
+        height: auto !important;
     }
     #fannyPack .col, #handbag .col, #bags .col, #wallet .col{
         padding-right: 0;
