@@ -55,7 +55,7 @@
     font-size: 30px;
   }
   #fannyPack {
-    height: auto !important;
+    height: 100% !important;
   }
   #bags {
     height: auto !important;
