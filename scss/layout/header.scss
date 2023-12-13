@@ -2,6 +2,10 @@ header{
     background-color: black;
     width: 100%;
     z-index: 1;
+    span{
+        background-color: $primary-color;
+        color: $secondary-color;
+    }
     .navbar-brand{
         color: $primary-color;
         margin-left: 30px;
