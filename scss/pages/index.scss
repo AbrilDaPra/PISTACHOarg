@@ -12,6 +12,9 @@ main{
             font-size: 90px;
             text-align: center; 
         }
+        .video-container{
+            display: none;
+        }
         #bannerTypography{
             animation: changeTypography 2s infinite;
         }

@@ -9,14 +9,18 @@
   .nav-item .nav-link {
     padding-left: 30px;
   }
-  #hero {
-    background-image: url("../../images/banner.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  #hero #bannerTypography {
+    display: none;
   }
-  #hero h2 {
-    font-size: 50px !important;
+  #hero .video-container {
+    display: block !important;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  #hero .video-container video {
+    width: 100%;
+    height: auto;
   }
   #favorites h2 {
     font-size: 30px;
@@ -695,6 +699,9 @@ main #hero h2 {
   color: #87f867;
   font-size: 90px;
   text-align: center;
+}
+main #hero .video-container {
+  display: none;
 }
 main #hero #bannerTypography {
   animation: changeTypography 2s infinite;
