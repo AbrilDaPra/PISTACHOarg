@@ -68,7 +68,7 @@
     text-align: center;
   }
   .categories .col .img-container .promo {
-    left: 39px !important;
+    left: 0px;
   }
   .categories .col h3, .categories .col h4 {
     display: flex;
@@ -289,6 +289,7 @@ main .categories .row .col a .img-container img {
 main .categories .row .col a .img-container .promo {
   position: absolute;
   top: 0px;
+  left: 0px;
   font-size: 20px;
   background-color: #87f867;
   padding: 15px;

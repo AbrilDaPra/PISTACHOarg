@@ -67,7 +67,7 @@
     text-align: center;
   }
   .categories .col .img-container .promo {
-    left: 39px !important;
+    left: 0px;
   }
   .categories .col h3, .categories .col h4 {
     display: flex;
