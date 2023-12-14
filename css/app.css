@@ -286,6 +286,17 @@ main .categories .row .col a .img-container img {
   height: 100%;
   object-fit: cover;
 }
+main .categories .row .col a .img-container .promo {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-size: 20px;
+  background-color: #87f867;
+  padding: 15px;
+  color: black;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
 main .categories .row .col a .img-container .stock {
   font-size: 16px;
   background-color: #87f867;

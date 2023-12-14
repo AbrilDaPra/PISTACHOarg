@@ -47,17 +47,17 @@ main{
                             height: 100%;
                             object-fit: cover;
                         }
-                        // .promo{
-                        //     position: absolute;
-                        //     top: 10px;
-                        //     left: 3;
-                        //     font-size: 20px;
-                        //     background-color: $primary-color;
-                        //     padding: 15px;
-                        //     color: $secondary-color;
-                        //     border-bottom-right-radius: 25px;
-                        //     border-top-right-radius: 25px;
-                        // }
+                        .promo{
+                            position: absolute;
+                            top: 10px;
+                            left: 0;
+                            font-size: 20px;
+                            background-color: $primary-color;
+                            padding: 15px;
+                            color: $secondary-color;
+                            border-bottom-right-radius: 25px;
+                            border-top-right-radius: 25px;
+                        }
                         .stock{
                             // position: relative;
                             // bottom: 0;
